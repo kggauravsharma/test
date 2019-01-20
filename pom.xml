@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+   <distributionManagement>
+    <repository>
+      <id>spring-releases</id>
+      <name>mvn-releases</name>
+      <url>http://ec2-52-14-122-162.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>spring-snapshots</id>
+      <name>mvn-snapshots</name>
+      <url>http://ec2-52-14-122-162.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/maven-snapshot/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
